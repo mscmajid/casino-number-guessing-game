@@ -20,5 +20,6 @@ pipeline {
                 archiveArtifacts artifacts: 'casino_game.tar.gz', fingerprint: true
             }
         }
+        
     }
 }
